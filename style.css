@@ -1,0 +1,60 @@
+.body {
+    font-family: 'Lato', sans-serif;
+}
+    /* hero section */
+.herosection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E554731A;
+    
+    }
+.contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+   
+   
+.leftside{
+    display: inline-block;
+    padding-bottom: 24px;}
+        
+    
+.slogan{
+    font-family: 'Lato', sans-serif;
+    font-weight:bold;
+    font-size: 64px;
+        }
+.herodescription{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    padding-right: 120px;
+    padding-bottom:24px;
+    font-size:16px;
+    }
+.btn{
+    display: inline-block;
+    background-color: #E55473;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.rightside{
+    display: flex;
+}
+.heroimg {
+    display:flex;
+    width: 500px;
+    height: auto;
+    margin-top: 120px;
+        }
+
