@@ -65,15 +65,23 @@
     height: auto;
     margin-top: 120px;
         }
+        /* Our Featured Flower */
 .featured{ 
     margin-top: 120px;
     }
 .card{display: flex;
-    justify-content: space-between;
-    margin-top: 64px;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
     margin-left: 140px;
     margin-right: 140px;}
-
+.flower{display: inline;
+    justify-content: space-between;}
+.flowername{ display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    text-decoration: underline;
+}
 .featuredimg1{display: flex;
     background-color: #A7216226;;
     width: 264px;
@@ -109,9 +117,19 @@
     justify-content: center;
     margin-top: 64px;
    }
-    /* Most Popular Section */
+    /* Most Popular Flower Section */
 .mostpopular{
     margin-top:120px;}
+.popularflower{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-top: 32px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+.pf{width: 280px;}
     
 
 
