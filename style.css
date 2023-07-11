@@ -133,25 +133,31 @@
 /* services section */
 .services{display: flex;
 justify-content: space-between;
+align-items: center;
 margin-top: 120px;
 margin-left: 140px;
 margin-right: 140px;
 background-color: #2727270D;
 }
-.delivery{display: inline;
-   justify-content: center;
-    margin-left: 140px;
+
+.deliveryimage{
+    vertical-align: middle;
+    justify-self: center;}
+.delivery{
     margin-top: 80px;
+    margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 80px;
+   
 }
-.servicedescription{ font-family: 'Lato', sans-serif;
-    display: block;
-    justify-content: center;
-    margin:auto;
+
+.servicedescription{ display: inline-block;
+    font-family: 'Lato', sans-serif;
+
     text-align: center;
     padding-bottom:24px;
-    font-size:16px;}
+    font-size:16px;
+        }
 /* offer */
 .offer{
     display: flex;
@@ -181,8 +187,60 @@ background-color: #2727270D;
     justify-content: center;  
   }
 
+/* latest deals */
 
 
     
 
+.latestdeals{
+    align-items: center;
+    justify-content: center;
+        background-image: url(./images/Rectangle\ 10.png );
+        margin: auto;
+        width: 80%;
+        height: 350px;
+        text-align: center;
+       }
+.dealtitle{justify-content: center;
+    margin-top: 120px;}
+.latestdescription{font-family: 'Lato', sans-serif;
+    margin:auto;
+    text-align: center;
+    width: 640px;
+    padding-bottom:24px;
+    font-size:16px;}
 
+.footer{ display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 240px;
+    margin-top: 120px;
+    align-items: center;
+    background-color: #111010;
+    }
+.footersectiontitle{ font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size:32px;
+    color:white}
+.flowerpink{color: #E55473;
+align-items: center;
+justify-content: center;}
+.footerdescription{color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    margin:auto;
+    text-align: center;
+    width: 640px;
+    padding-bottom:24px;
+    font-size:16px;
+        }
+.copyright{
+    opacity: 50%;
+    font-family: 'Lato', sans-serif;
+    justify-self: center;
+    margin:auto;
+    text-align: center;
+    padding-bottom:24px;
+    font-size:16px;
+    color: white;
+}
