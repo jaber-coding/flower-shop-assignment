@@ -130,6 +130,59 @@
     
 }
 .pf{width: 280px;}
+/* services section */
+.services{display: flex;
+justify-content: space-between;
+margin-top: 120px;
+margin-left: 140px;
+margin-right: 140px;
+background-color: #2727270D;
+}
+.delivery{display: inline;
+   justify-content: center;
+    margin-left: 140px;
+    margin-top: 80px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+}
+.servicedescription{ font-family: 'Lato', sans-serif;
+    display: block;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    padding-bottom:24px;
+    font-size:16px;}
+/* offer */
+.offer{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 140px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E554731A;
+}
+.offerimg{
+    display: flex;;
+    margin-right: 140px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.offerright{
+    display: flex;  
+    width:200px;
+}
+.offerleftside{
+    margin-left: 140px;
+}
+.offerbutton{
+    display: flex;
+    justify-content: center;  
+  }
+
+
+
     
 
 
