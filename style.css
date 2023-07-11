@@ -201,6 +201,17 @@ background-color: #2727270D;
         height: 350px;
         text-align: center;
        }
+.emailbox{ 
+    background-color: white;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;}
 .dealtitle{justify-content: center;
     margin-top: 120px;}
 .latestdescription{font-family: 'Lato', sans-serif;
@@ -209,10 +220,10 @@ background-color: #2727270D;
     width: 640px;
     padding-bottom:24px;
     font-size:16px;}
-
+/* footer */
 .footer{ display: flex;
     justify-content: center;
-    width: 100vw;
+    margin: auto;
     height: 240px;
     margin-top: 120px;
     align-items: center;
